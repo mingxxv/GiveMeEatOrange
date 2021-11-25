@@ -3,9 +3,7 @@
   "homepage": "https://raniceyue.github.io/GiveMeEatOrange",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /GiveMeEatOrange/",
-    "predeploy": "npm build",
-    "deploy": "gh-pages -b gh-pages -d dist"
+    "build": "parcel build src/index.html"
   },
   "devDependencies": {
     "autoprefixer": "^9",
@@ -16,6 +14,5 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.4",
-    "gh-pages": "^3.2.3"
   }
 }
