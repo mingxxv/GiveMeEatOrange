@@ -3,16 +3,16 @@
   "homepage": "https://raniceyue.github.io/GiveMeEatOrange",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
+    "build": "parcel build --no-minify src/index.html",
     "predeploy": "yarn build",
     "deploy": "gh-pages -b gh-pages -d dist"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^4.0.3",
-    "autoprefixer": "^9.8.8",
+    "autoprefixer": "^9",
     "parcel-bundler": "^1.12.5",
-    "postcss": "^7.0.39",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.3.4",
