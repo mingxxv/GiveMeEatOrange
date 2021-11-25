@@ -3,8 +3,8 @@
   "homepage": "https://raniceyue.github.io/GiveMeEatOrange",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "predeploy": "npm run build",
+    "build": "parcel build src/index.html --public-url /GiveMeEatOrange/",
+    "predeploy": "npm build",
     "deploy": "gh-pages -b gh-pages -d dist"
   },
   "devDependencies": {
