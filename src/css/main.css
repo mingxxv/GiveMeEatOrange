@@ -1,0 +1,14 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+.btn-orange {
+  @apply bg-gray-200 w-28 p-2 text-sm rounded hover:bg-yellow-500 transition-colors shadow-lg font-bold;
+}
+
+label {
+  @apply font-bold;
+}

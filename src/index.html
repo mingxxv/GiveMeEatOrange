@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <meta name="Description" CONTENT="Dummy text generator based on longest sentence formed by a monkey...">
+
+    <!--  Essential META Tags -->
+    <meta property="og:title" content="GiveMeEatOrange Dummy Text Generator">
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="img/thumb.png">
+    <meta property="og:url" content="https://raniceyue.github.io/GiveMeEatOrange">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!--  Non-Essential, But Recommended -->
+    <meta property="og:description" content="Dummy text generator based on longest sentence formed by a monkey...">
+    <meta property="og:site_name" content="GiveMeEatOrange Dummy Text Generator">
+    <meta name="twitter:image:alt" content="Screenshot of application">
+
+    <title>GiveMeEatOrange Dummy Text Generator</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+    <script src="js/index.js"></script>
+  </head>
+
+  <body class="py-16 bg-white flex justify-center align-middle">
+    <div class="flex flex-col justify-center lg:w-2/4 w-11/12">
+      <h1 class="mb-4 text-4xl text-center text-gray-800 font-bold font-sans">
+        GiveMeEatOrange Generator
+      </h1>
+
+      <div class="flex flex-col">
+        <div class="mt-2 mb-7">
+          <label>Word Count</label>
+          <div class="flex mt-2">
+            <input id="input-word-count" type="number" class="rounded w-28 mr-5" />
+            <button id="btn-go" class="btn-orange">Enter</button>
+          </div>
+        </div>
+
+        <label>Text Generated</label>
+        <textarea id="output-text" rows="10" class="rounded mt-2 mb-5" disabled></textarea>
+        <div class="flex justify-end content-center">
+          <div id="popup-copied" class="mr-5 p-2 invisible  text-gray-600 text-sm transition-opacity">Copied!</div>
+          <button id="btn-copy" class="btn-orange">Copy
+          </button>
+        </div>
+      </div>
+
+      <div class="flex flex-col p-5 my-10 text-center shadow-lg bg-yellow-100">
+        <h3 class="text-xl font-bold">What is this??</h3><br>
+        <p class=" text-gray-600 font-sans lg:w-3/4 m-auto">
+          Why use a lorem ipsum text generator, when you can use a text generator based on the longest sentence ever formed by a monkey!
+        </p>
+        <div class="my-4 w-full flex justify-center">
+          <iframe 
+          width="560" height="315" src="https://www.youtube.com/embed/fjhS6bwuxVc"
+          title="YouTube video player"
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        ></iframe>
+        </div>
+      </div>
+    </div>
+    <div class=" flex bg-gray-200 text-center text-xs rounded-tl-md opacity-70 px-2 py-1 right-0 bottom-0 fixed">
+      <svg class="h-4 w-4 mr-1 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+      </svg>
+      <a href="https://github.com/raniceyue/GiveMeEatOrange">Source Code</a>&nbsp;&nbsp;|
+      &nbsp;&nbsp;Made with LOVE by <a href="https://github.com/raniceyue">&nbsp;Ranice</a>
+    </div>
+  </body>
+</html>
