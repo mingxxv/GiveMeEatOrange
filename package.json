@@ -1,18 +1,18 @@
 {
-  "license": "MIT",
-  "homepage": "https://raniceyue.github.io/GiveMeEatOrange",
-  "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
-  },
-  "devDependencies": {
-    "autoprefixer": "^9",
-    "parcel": "^2.0.1",
-    "postcss": "^8.4.1",
-    "postcss-cli": "^9.0.2",
-    "tailwindcss": "^2.2.19"
-  },
-  "dependencies": {
-    "@tailwindcss/forms": "^0.3.4"
+    "license": "MIT",
+    "homepage": "https://raniceyue.github.io/GiveMeEatOrange",
+    "scripts": {
+      "dev": "parcel src/index.html",
+      "build": "parcel build src/index.html"
+    },
+    "devDependencies": {
+      "autoprefixer": "^9",
+      "parcel": "^2.0.1",
+      "postcss": "^8.4.1",
+      "postcss-cli": "^9.0.2",
+      "tailwindcss": "^2.2.19"
+    },
+    "dependencies": {
+      "@tailwindcss/forms": "^0.3.4"
+    }
   }
-}

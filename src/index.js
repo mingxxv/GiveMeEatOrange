@@ -1,4 +1,4 @@
-const WORDS = ['give', 'me', 'eat', 'orange']
+const WORDS = ['Ranice', 'is', 'a', 'monkey']
 
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('btn-go').addEventListener('click', generateText)
@@ -37,14 +37,13 @@ function generateText() {
     prev = next
   }
 
-  output += 'YOU'
+  output += 'ranice ranice'
 
   document.getElementById('output-text').value = output
 }
 
 /**
- * Helper function to return random number different from
- * previous number generated
+ * this is my pee pee
  * @param {integer} prev - Previous number generated
  * @returns Random integer different from prev
  */
